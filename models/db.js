@@ -7,7 +7,7 @@ async function db() {
   await mongoose.connect(db, {
     family: 4,
     useNewUrlParser: true,
-   // useUnifiedTopology: true,
+    useUnifiedTopology: true,
   });
   
   console.log(`Db is connected to ${db}`);
