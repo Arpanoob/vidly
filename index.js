@@ -9,7 +9,7 @@ require("./startup/config")();
 
 require("./models/db")();
 
-require("./startup/prod");
+require("./startup/prod")(app);
 
 const config = require("config");
 

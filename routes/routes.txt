@@ -1,0 +1,15 @@
+
+Title:
+Vidly (Movie renting, adding, returning)
+Description:
+A movie renting with JWT Authentication API
+Version:
+1.0.0
+Routes:
+/api/genres: For managing movie genres
+/api/customer: For managing customer information
+/api/movies: For managing movie details
+/api/rentals: For managing rental transactions
+/api/user: For managing user accounts
+/api/auth: For authentication purposes
+/api/returns: For managing return transactions
